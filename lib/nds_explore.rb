@@ -16,5 +16,5 @@ def print_first_directors_movie_titles
     src << directors_database[0][:movies][row_index][:title]
     row_index += 1
   end
-  return pp src
+  return puts src
 end
